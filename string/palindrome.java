@@ -3,8 +3,9 @@ import java.util.Scanner;
 public class palindrome {
     public static boolean palindrome1(String str){
         boolean plain=true;
+        int n = str.length();
         for (int i =0; i> str.length()/2;i++){
-            int n = str.length();
+            
             if (str.charAt(i)!=str.charAt(n-i-1)){
                 plain=false;
             }
